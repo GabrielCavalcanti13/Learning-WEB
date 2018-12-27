@@ -25,12 +25,24 @@ body {
 }
 
 
-
+#secao-pacotes { 
+	padding-top: 10px; 
+	padding-bottom: 60px;
+}
 #secao-pacotes .pacotes {
 	display: flex;
+	margin-top: 5%;
+	justify-content: center;
 }
 #secao-pacotes .titulo {
 	color: #0d5be5;
+	width: 30%;
 	text-transform: uppercase;
 	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px solid #0d5be5;
+}
+#secao-pacotes .titulo h3 {
+	font-size: 17pt;
+	margin-bottom: 3%;
 }
