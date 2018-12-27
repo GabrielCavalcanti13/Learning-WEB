@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+}
+#image {
+	height: 500px;
+}
+#image #logo {
+	width: 100%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+#image #back {
+	width: 100%;
+	height: 100%;
+}
+#image #logo img {
+	width: 10%
+}
+#image #back img {
+	width: 100%;
+	height: 100%
+}
