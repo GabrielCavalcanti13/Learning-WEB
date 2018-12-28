@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+
+}
+header {
+	display: flex;
+	height: 100px;
+	width: 100%;
+	background: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	border-bottom: 1px solid #3e4f5f;
+}
+header .logo {
+	width: 30%;
+	margin-left: 100px;
+}
+header .logo img {
+	height: 50px;
+	margin: 25px;
+} 
+header nav {
+	width: 70%;
+}
+header nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+	height: 100px;
+}
+header nav ul li{
+	list-style-type: none;
+	margin-right: 15%;
+	
+}
+header nav ul li a {
+	font-size: 17pt;
+	color: #010101;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+#back {
+	width: 100%;
+	height: 100%;
+}
+#back img {
+	width: 100%;
+	height: 100%;
+}
+#anuncios {
+	display: flex;
+	justify-content: center;
+	padding-top: 170px;
+	padding-bottom: 150px;
+}
+#anuncios .anuncio {
+	width: 330px;
+	height: 220px;
+	margin-right: 1.5%;
+	margin-left:1.5%;
+}
+#anuncios .anuncio .imagem {
+	width: 100%;
+	height: 100%;
+}
+#anuncios .anuncio .imagem img {
+	width: 100%;
+	height: 100%;
+}
+#anuncios .anuncio .info p {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	font-size: 10pt;
+}

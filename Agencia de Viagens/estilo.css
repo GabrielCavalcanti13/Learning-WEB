@@ -55,8 +55,8 @@ body {
 	position: relative;
 	/* perguntar a meu amor (position???)*/
 }
-                              /* Oq é isso???*/
-#secao-pacotes .pacotes .pacote:nth-child(3) { margin-right: 0;}
+                              /* Oq é isso???
+#secao-pacotes .pacotes .pacote:nth-child(3) { margin-right: 0;}*/
 
 #secao-pacotes .pacotes .pacote .titulo {
 	text-transform: capitalize;
