@@ -40,6 +40,8 @@ header nav ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #ffffff;
+	font-family: 'Staatliches', cursive;
+	font-size: 17pt;
 }
 #back {
 	width: 100%;
@@ -77,8 +79,10 @@ header nav ul li a {
 	align-items: center;
 	height: 40px;
 }
-.continents .continent .titulo h3 {
+.continents .continent .titulo a {
 	text-transform: uppercase;
 	font-family: 'Staatliches', cursive;
 	font-size: 17pt;
+	text-decoration: none;
+	color: #111111;
 }
