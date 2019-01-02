@@ -36,8 +36,6 @@ body {
 #header-main #nav-main ul li {
 	list-style-type: none;
 	margin-left: 5%;
-	
-	
 }
 #header-main #nav-main ul li a {
 	text-decoration: none;
@@ -46,12 +44,11 @@ body {
 	font-family: 'Staatliches', cursive;
 	font-size: 17pt;
 }
-li a p:hover { 
+#nav-main li a p:hover { 
   background-color: #ffffff;
   color: #111111;
   padding: 5px;
   -webkit-border-radius: 10px 10px 10px 10px;
-  
 }
 #back {
 	width: 100%;
@@ -99,7 +96,7 @@ li a p:hover {
 /*\----------------------------
 			  Species
 ----------------------------\*/			  
-#header-species {
+#header-white {
 	display: flex;
 	height: 65px;
 }
@@ -117,26 +114,32 @@ li a p:hover {
 	height: 100px;
 	border: 3px solid #111111;
 }
-#header-species #nav-species {
+#nav-white {
 	width: 80%;
 	display: flex;
 	align-items: center;
 }
-#header-species #nav-species ul {
+#nav-white ul {
 	width: 100%;
 	margin-left: 5%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 }
-#header-species #nav-species ul li {
+#nav-white ul li {
 	list-style-type: none;
 	margin-left: 5%;
 }
-#header-species #nav-species ul li a {
+#nav-white ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #111111;
 	font-family: 'Staatliches', cursive;
 	font-size: 17pt;
+}
+#nav-white li a p:hover { 
+  background-color: #111111;
+  color: #ffffff;
+  padding: 5px;
+  -webkit-border-radius: 10px 10px 10px 10px;
 }
