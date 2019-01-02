@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 }
-header {
+#header-main {
 	display: flex;
 	height: 65px;
 	background: #111111;
@@ -20,12 +20,12 @@ header {
 	height: 100px;
 	border: 3px solid #111111;
 }
-header nav {
+#header-main #nav-main {
 	width: 80%;
 	display: flex;
 	align-items: center;
 }
-header nav ul {
+#header-main #nav-main ul {
 	width: 100%;
 	margin-left: 5%;
 	display: flex;
@@ -33,16 +33,25 @@ header nav ul {
 	align-items: center;
 	/*border: 1px solid #f21810;*/
 }
-header nav ul li {
+#header-main #nav-main ul li {
 	list-style-type: none;
 	margin-left: 5%;
+	
+	
 }
-header nav ul li a {
+#header-main #nav-main ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #ffffff;
 	font-family: 'Staatliches', cursive;
 	font-size: 17pt;
+}
+li a p:hover { 
+  background-color: #ffffff;
+  color: #111111;
+  padding: 5px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  
 }
 #back {
 	width: 100%;
@@ -87,4 +96,47 @@ header nav ul li a {
 	text-decoration: none;
 	color: #111111;
 }
-/*-----------Species-----------*/
+/*\----------------------------
+			  Species
+----------------------------\*/			  
+#header-species {
+	display: flex;
+	height: 65px;
+}
+#logo {
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	height: 100px;
+	
+}
+#logo a {
+	position: absolute;
+}
+#logo img {
+	height: 100px;
+	border: 3px solid #111111;
+}
+#header-species #nav-species {
+	width: 80%;
+	display: flex;
+	align-items: center;
+}
+#header-species #nav-species ul {
+	width: 100%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#header-species #nav-species ul li {
+	list-style-type: none;
+	margin-left: 5%;
+}
+#header-species #nav-species ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #111111;
+	font-family: 'Staatliches', cursive;
+	font-size: 17pt;
+}
