@@ -101,13 +101,27 @@ body {
 	 -webkit-border-radius: 5px 5px 0px 0px;
 }
 /*=================================Species===================================*/
+.titulo-secao {
+	font-family: 'Staatliches', cursive;
+	width: 30%;
+	height: 60px;
+	padding-top: 70px;
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px solid #484848;
+}
+.titulo-secao h3 {
+	font-size: 20pt;
+	width: 20%;
+	height: 49%;
+}
 .continents {
 	display: flex;
 	justify-content: center;
 	width: 100%;
 }
 .continents .continent {
-	padding-top: 100px;
+	padding-top: 50px;
 	margin right: 3%;
 	margin-left: 3%;
 }
