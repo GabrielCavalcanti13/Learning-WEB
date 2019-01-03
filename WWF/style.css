@@ -52,6 +52,7 @@ body {
 #nav-main li a p:hover { 
   background-color: #ffffff;
   color: #111111;
+  transition: 0.5s;
 
   
 }
@@ -201,6 +202,7 @@ body {
 #nav-white li a p:hover { 
   background-color: #111111;
   color: #ffffff;
+  transition: 0.5s;
 }
 .animais {
 	display: flex;
