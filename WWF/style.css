@@ -201,5 +201,21 @@ body {
 #nav-white li a p:hover { 
   background-color: #111111;
   color: #ffffff;
- 
+}
+.animais {
+	display: flex;
+	padding: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.animais a {
+	width: 330px;
+	height: 220px;
+	margin-right: 1,5%;
+	margin-left: 1,5%;
+}
+.animais a img {
+	height: 100%;
+	width: 100%;
 }
