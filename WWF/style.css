@@ -194,9 +194,12 @@ body {
 	font-family: 'Staatliches', cursive;
 	font-size: 17pt;
 }
+#nav-white li a p {
+	 padding: 5px;
+  	-webkit-border-radius: 10px 10px 10px 10px;
+}
 #nav-white li a p:hover { 
   background-color: #111111;
   color: #ffffff;
-  padding: 5px;
-  -webkit-border-radius: 10px 10px 10px 10px;
+ 
 }
