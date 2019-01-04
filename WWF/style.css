@@ -52,9 +52,43 @@ body {
 #nav-main li a p:hover { 
   background-color: #ffffff;
   color: #111111;
+  transition: 0.5s;  
+}
+#header-white {
+	display: flex;
+	height: 65px;
+}
+#nav-white {
+	width: 80%;
+	display: flex;
+	align-items: center;
+}
+#nav-white ul {
+	width: 100%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#nav-white ul li {
+	list-style-type: none;
+	margin-left: 5%;
+}
+#nav-white ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #111111;
+	font-family: 'Staatliches', cursive;
+	font-size: 17pt;
+}
+#nav-white li a p {
+	 padding: 5px;
+  	-webkit-border-radius: 10px 10px 10px 10px;
+}
+#nav-white li a p:hover { 
+  background-color: #111111;
+  color: #ffffff;
   transition: 0.5s;
-
-  
 }
 #back {
 	width: 100%;
@@ -102,6 +136,41 @@ body {
 	 -webkit-border-radius: 5px 5px 0px 0px;
 }
 /*=================================Species===================================*/
+.descricao-secao {
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 100%;
+	height: 100px;
+	padding-top: 70px;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #111111;
+}
+.descricao-secao p {
+	font-size: 20pt;
+}
+.animais {
+	display: flex;
+	padding: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.animais a {
+	width: 330px;
+	height: 220px;
+	margin-right: 1,5%;
+	margin-left: 1,5%;
+}
+.animais a img {
+	height: 100%;
+	width: 100%;
+}
+.animais a img:hover {
+	height: 110%;
+	width: 110%;
+	transition: 1s;
+}
+/*==================places-----------------------------*/
 .titulo-secao {
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 30%;
@@ -150,74 +219,4 @@ body {
 	font-size: 17pt;
 	text-decoration: none;
 	color: #111111;
-}
-/*\----------------------------
-			  Species
-----------------------------\*/			  
-#header-white {
-	display: flex;
-	height: 65px;
-}
-#logo {
-	display: flex;
-	justify-content: center;
-	width: 20%;
-	height: 100px;
-	
-}
-#logo a {
-	position: absolute;
-}
-#logo img {
-	height: 100px;
-	border: 3px solid #111111;
-}
-#nav-white {
-	width: 80%;
-	display: flex;
-	align-items: center;
-}
-#nav-white ul {
-	width: 100%;
-	margin-left: 5%;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-#nav-white ul li {
-	list-style-type: none;
-	margin-left: 5%;
-}
-#nav-white ul li a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #111111;
-	font-family: 'Staatliches', cursive;
-	font-size: 17pt;
-}
-#nav-white li a p {
-	 padding: 5px;
-  	-webkit-border-radius: 10px 10px 10px 10px;
-}
-#nav-white li a p:hover { 
-  background-color: #111111;
-  color: #ffffff;
-  transition: 0.5s;
-}
-.animais {
-	display: flex;
-	padding: 50px;
-	flex-wrap: wrap;
-	justify-content: center;
-
-}
-.animais a {
-	width: 330px;
-	height: 220px;
-	margin-right: 1,5%;
-	margin-left: 1,5%;
-}
-.animais a img {
-	height: 100%;
-	width: 100%;
 }
