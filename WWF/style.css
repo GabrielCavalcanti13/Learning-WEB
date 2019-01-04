@@ -139,21 +139,20 @@ body {
 .descricao-secao {
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 100%;
-	height: 100px;
 	padding-top: 70px;
 	display: flex;
 	justify-content: center;
-	border: 1px solid #111111;
+	
 }
 .descricao-secao p {
-	font-size: 20pt;
+	width: 60%;
+	font-size: 12pt;
 }
 .animais {
 	display: flex;
 	padding: 50px;
 	flex-wrap: wrap;
 	justify-content: center;
-
 }
 .animais a {
 	width: 330px;
