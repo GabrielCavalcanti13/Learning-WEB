@@ -158,15 +158,39 @@ body {
 	height: 220px;
 	margin-right: 1,5%;
 	margin-left: 1,5%;
+	display: flex;
 }
-.animais .animal a img {
+
+.animais .animal img {
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
-.animais .animal a img:hover {
-	-webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
+.animais .animal .nome {
+	background-color: rgba(0,0,0, 0.8);
+	width: 330px;
+	height: 220px;
+	position: absolute;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.animais .animal .nome a {
+	width: 330px;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.animais .animal .nome a p{
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
+.animais .animal .nome:hover {
+	opacity: 1;
 	transition: 0.5s;
 }
 /*==================places-----------------------------*/
