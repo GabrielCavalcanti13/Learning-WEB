@@ -183,11 +183,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
+	position: relative;
 }
 .animais .animal .nome a p{
 	text-transform: uppercase;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Staatliches', cursive;
 	color: #ffffff;
+	font-size: 17pt;
+
 }
 .animais .animal .nome:hover {
 	opacity: 1;
