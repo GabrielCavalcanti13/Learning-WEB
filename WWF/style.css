@@ -134,6 +134,22 @@ body {
 	height: 100%;
 	 -webkit-border-radius: 5px 5px 0px 0px;
 }
+footer {
+	display: flex;
+	align-items: center;
+	background-color: #111111;
+	height: 100px;
+}
+footer .autor {
+	width: 50%;
+}
+footer .ano {
+	width: 50%;
+}
+footer p {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+}
 /*=================================Species===================================*/
 .descricao-secao {
 	font-family: 'Roboto Condensed', sans-serif;
