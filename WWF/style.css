@@ -142,9 +142,15 @@ footer {
 }
 footer .autor {
 	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 150px;
 }
 footer .ano {
 	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 150px;
 }
 footer p {
 	font-family: 'Roboto Condensed', sans-serif;
