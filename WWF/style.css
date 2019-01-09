@@ -155,7 +155,6 @@ footer .ano {
 footer p {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #ffffff;
-	font-size: 14pt;
 }
 /*=================================Species===================================*/
 .descricao-secao {
@@ -238,6 +237,7 @@ footer p {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	padding-bottom: 100px;
 }
 .continents .continent {
 	padding-top: 50px;
@@ -250,11 +250,15 @@ footer p {
 	align-items: center;
 	justify-content: center;
 }
-.continents .continent .imagem img {
+.continents .continent .imagem a {
 	width: 100px;
 	height: 100px;
 	-webkit-clip-path: circle(50% at 50% 50%);
 		clip-path: circle(50% at 50% 50%);
+}
+.continents .continent .imagem img {
+	width: 100px;
+	height: 100px;
 }
 .continents .continent .titulo {
 	display: flex;
@@ -268,4 +272,7 @@ footer p {
 	font-size: 17pt;
 	text-decoration: none;
 	color: #111111;
+}
+.continents .continent a:hover img{
+
 }
