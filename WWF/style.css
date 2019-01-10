@@ -89,13 +89,24 @@ body {
   color: #ffffff;
   transition: 0.5s;
 }
-#back {
+#back-main {
+	background-image: url("img/rhino.jpg");
 	width: 100%;
-	height: 570px;
+	height: 95vh;
+    background-size: cover;
+    background-attachment: fixed;
 }
-#back img {
+#back-species {
+	background-image: url("img/bird.jpg");
 	width: 100%;
-	height: 100%;
+	height: 95vh;
+    background-size: cover;
+}
+#back-places {
+	background-image: url("img/elefantes.jpg");
+	width: 100%;
+	height: 95vh;
+    background-size: cover;
 }
 #section {
 	padding-top: 100px;
@@ -163,7 +174,6 @@ footer p {
 	padding-top: 70px;
 	display: flex;
 	justify-content: center;
-	
 }
 .descricao-secao p {
 	width: 60%;
