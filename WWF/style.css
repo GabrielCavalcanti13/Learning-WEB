@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 }
-#header-main {
+#header {
 	display: flex;
 	height: 65px;
 	background: #111111;
@@ -19,73 +19,37 @@ body {
 	height: 100px;
 	border: 3px solid #111111;
 }
-#header-main #nav-main {
+#header #nav {
 	width: 45%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-#header-main #nav-main ul {
+#header #nav ul {
     width: 540px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
-#header-main #nav-main ul li {
+#header #nav ul li {
 	list-style-type: none;
 	margin-left: 5%;
 }
-#header-main #nav-main ul li a {
+#header #nav ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #ffffff;
 	font-family: 'Staatliches', cursive;
 	font-size: 17pt;	
 }
-#nav-main li a p {
+#nav li a p {
 	padding: 5px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 }
-#nav-main li a p:hover { 
+#nav li a p:hover { 
   background-color: #ffffff;
   color: #111111;
   transition: 0.5s;  
-}
-#header-white {
-	display: flex;
-	height: 65px;
-}
-#nav-white {
-	width: 45%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-#nav-white ul {
-	width: 540px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-#nav-white ul li {
-	list-style-type: none;
-	margin-left: 5%;
-}
-#nav-white ul li a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #111111;
-	font-family: 'Staatliches', cursive;
-	font-size: 17pt;
-}
-#nav-white li a p {
-	 padding: 5px;
-  	-webkit-border-radius: 10px 10px 10px 10px;
-}
-#nav-white li a p:hover { 
-  background-color: #111111;
-  color: #ffffff;
-  transition: 0.5s;
 }
 #input {
     display: flex;
