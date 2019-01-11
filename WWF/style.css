@@ -172,10 +172,22 @@ footer p {
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 100%;
 	padding-top: 70px;
+}
+#titulo-species {
 	display: flex;
 	justify-content: center;
 }
-.descricao-secao p {
+#descricao-species {
+	display: flex;
+	justify-content: center;
+}
+#titulo-species h2 {
+	text-transform: uppercase;
+	color: #444341;
+	border-bottom: 3px solid #666461;
+	
+}
+#descricao-species p {
 	width: 60%;
 	font-size: 12pt;
 }
