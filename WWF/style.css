@@ -20,20 +20,16 @@ body {
 	border: 3px solid #111111;
 }
 #header-main #nav-main {
-	width: 60%;
+	width: 45%;
 	display: flex;
 	align-items: center;
-	border: 1px solid #ffffff;
-	margin-right: 1px;
-
+	justify-content: center;
 }
 #header-main #nav-main ul {
-	width: 100%;
-	margin-left: 5%;
+    width: 540px;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	align-items: center;
-	/*border: 1px solid #f21810;*/
 }
 #header-main #nav-main ul li {
 	list-style-type: none;
@@ -44,8 +40,7 @@ body {
 	text-transform: uppercase;
 	color: #ffffff;
 	font-family: 'Staatliches', cursive;
-	font-size: 17pt;
-	
+	font-size: 17pt;	
 }
 #nav-main li a p {
 	padding: 5px;
