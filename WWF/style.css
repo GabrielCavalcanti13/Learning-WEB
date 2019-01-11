@@ -20,9 +20,12 @@ body {
 	border: 3px solid #111111;
 }
 #header-main #nav-main {
-	width: 80%;
+	width: 60%;
 	display: flex;
 	align-items: center;
+	border: 1px solid #ffffff;
+	margin-right: 1px;
+
 }
 #header-main #nav-main ul {
 	width: 100%;
@@ -88,6 +91,21 @@ body {
   background-color: #111111;
   color: #ffffff;
   transition: 0.5s;
+}
+#input {
+    display: flex;
+    width: 209px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    margin-top: 15px;
+}
+#btn-busca {
+	height: 25px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+#txt-busca {
+
 }
 #back-main {
 	background-image: url("img/rhino.jpg");
