@@ -196,6 +196,7 @@ footer p {
 	padding: 50px;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding-bottom: 100px;
 }
 .animais .animal {
 	width: 330px;
