@@ -77,12 +77,6 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-#back-species {
-	background-image: url("img/bird.jpg");
-	width: 100%;
-	height: 95vh;
-    background-size: cover;
-}
 #section {
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -143,6 +137,12 @@ footer p {
 	color: #ffffff;
 }
 /*=================================Species===================================*/
+#back-species {
+	background-image: url("img/bird.jpg");
+	width: 100%;
+	height: 95vh;
+    background-size: cover;
+}
 .descricao-secao {
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 100%;
