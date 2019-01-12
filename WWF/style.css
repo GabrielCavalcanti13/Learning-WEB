@@ -83,12 +83,6 @@ body {
 	height: 95vh;
     background-size: cover;
 }
-#back-places {
-	background-image: url("img/elefantes.jpg");
-	width: 100%;
-	height: 95vh;
-    background-size: cover;
-}
 #section {
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -223,6 +217,12 @@ footer p {
 	transition: 0.5s;
 }
 /*==================places-----------------------------*/
+#back-places {
+	background-image: url("img/gnus.jpg");
+	width: 100%;
+	height: 95vh;
+    background-size: cover;
+}
 .titulo-secao {
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 30%;
