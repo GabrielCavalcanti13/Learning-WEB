@@ -6,8 +6,12 @@ Here you can find some Web sites that I've recreated to practise and learn HTML,
 ## 1. Travel Agency
 ![Learning_WEB](img_latam.png)
 
+
+
 ## 2. Pixar
 ![Learning_WEB](img_pixar.png)
+
+
 
 ## 3. World Wide Fund for Nature
 ![Learning_WEB](img_wwf.png)
